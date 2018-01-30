@@ -1,6 +1,6 @@
 public class rocketship{
    public static void main(String[] args){
-      rocket(3);
+      rocket(7);
    }
    public static void rocket(int i){
       cone(i);
@@ -32,18 +32,62 @@ public class rocketship{
       for(int y = (i-x-1); y >= 0; y--){
       	spaces += " ";
       }
-      //I need to remove spaces from the spaces variable in order to make it work.
-      //The assignment prompt mentioned nested for loops; why?
       System.out.println(spaces + fslash + "**" + bslash);
    }
    
    
    }
    public static void body1(int i){
-   
+      String dots = "";
+      String slashes = "";
+      String dots1 = "";
+      String slashes1 = "";
+      for(int x = 0; x <= (i/2); x++){
+         for(int y = (i/2)-1; y >= x; y--){
+            dots += ".";
+         }
+         slashes += "/\\";
+         System.out.println("|" + dots + slashes + dots + dots + slashes + dots + "|");
+         dots = "";
+      }
+      dots = "";
+      slashes = "";
+      for(int x = ((i/2)+1); x <= i; x++){
+         for(int y = x; y <= i; y++){
+            slashes += "\\/";
+         }
+         System.out.println("|" + dots + slashes + dots + dots + slashes + dots + "|");
+         dots += ".";
+         slashes = "";
+      }
    }
    public static void body2(int i){
-   
+      String dots = "";
+      String slashes = "";
+      String dots1 = "";
+      String slashes1 = "";
+      for(int x = 0; x <= (i/2); x++){
+         for(int y = (i/2); y >= x; y--){
+            slashes += "\\/";
+         }
+         System.out.println("|" + dots + slashes + dots + dots + slashes + dots + "|");
+         dots += ".";
+         slashes = "";
+      }
+      dots = "";
+      slashes = "";
+      for(int x = ((i/2)+1); x <= i; x++){
+         for(int y = x+1; y <= i; y++){
+            dots += ".";
+         }
+         slashes += "/\\";
+         System.out.println("|" + dots + slashes + dots + dots + slashes + dots + "|");
+         dots = "";
+      }
+      dots = "";
+      slashes = "";
+      
    }
-   
 }
+   
+
