@@ -1,6 +1,6 @@
 public class rocketship{
    public static void main(String[] args){
-      rocket(7);
+      rocket(3);
    }
    public static void rocket(int i){
       cone(i);
