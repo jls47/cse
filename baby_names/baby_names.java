@@ -13,11 +13,13 @@ public class baby_names{
       find(name, gender);
       
    }
-   
+   //I could do this with reading nextlines and then splitting along spaces.  You already know how to do everything else.
    public static void find(String name, String gender) throws FileNotFoundException{
       Scanner scanner = new Scanner(new File("names.txt"));
       while (scanner.hasNext()){
+         
          String next = scanner.next();
+         
          String next2 = scanner.next();
          int n0 = Integer.parseInt(scanner.next());
          int n1 = Integer.parseInt(scanner.next());
@@ -35,7 +37,7 @@ public class baby_names{
 
          int[] nums = {n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12};
          
-         String nextline = scanner.nextLine();
+         
          if((next.toUpperCase().equals(name.toUpperCase())) && (next2.contains(gender.toUpperCase()))){
             DrawingPanel panel = new DrawingPanel(780,560);
             Graphics g = panel.getGraphics();

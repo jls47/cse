@@ -1,0 +1,21 @@
+name    : Space Needle
+address : Seattle Center
+tags    : tourist
+toString: Space Needle (latitude: 47.6205063, longitude: -122.3492774)
+London  : 4789.250568137516
+Kane    : 3.1209322641429584
+
+name    : Husky Union Building
+address : 4001 Stevens Way
+tags    : restaurant
+toString: Husky Union Building (latitude: 47.6554785, longitude: -122.3050906)
+London  : 4786.0917635486
+Kane    : 0.20516204800908888
+
+name    : UW Guggenheim Hall
+address : UW campus
+tags    : university, aa
+toString: UW Guggenheim Hall (latitude: 47.6545769, longitude: -122.3064568)
+London  : 4786.179152206655
+Kane    : 0.18937809987239887
+

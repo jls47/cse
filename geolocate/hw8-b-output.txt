@@ -1,0 +1,6 @@
+the stash is at latitude: 34.988889, longitude: -106.614444
+ABQ studio is at latitude: 34.989978, longitude: -106.614357
+FBI building is at latitude: 35.131281, longitude: -106.61263
+distance in miles between:
+    stash/studio = 0.07548768123801672
+    stash/fbi    = 9.849836190409732

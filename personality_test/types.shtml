@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<!-- This file and all linked documents are, unless otherwise specified, authored by Helene Martin and Marty Stepp, and may not be copied, redistributed, or modified without their permission. -->
+	<head>
+		<title>CSE 142, Autumn 2016</title>
+
+		<meta charset="utf-8" />
+		<meta name="author" content="Helene Martin, Marty Stepp" />
+		<meta name="description" content="Course web site for CSE 142, an introduction to programming in Java at the University of Washington." />
+		<meta name="keywords" content="CSE 142, Java, programming, Helene Martin, Marty Stepp, University of Washington, Washington, UW, computer science, Building Java Programs" />
+
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script src="//ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js" type="text/javascript"></script>
+		<script src="cse.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="titles">
+					<div class="logo">
+						<a href="http://cs.washington.edu/142"><img src="images/cse_logo.png" alt="CSE Logo"/></a>
+					</div>
+
+					<img src="images/cse_header.png" alt="University of Washington Computer Science &amp; Engineering"/>
+					<h1>CSE 142: Computer Programming I, Autumn 2016</h1>
+					<h2>
+						Instructor: Stuart Reges (reges@cs.washington.edu)					</h2>
+						
+				</div>
+				<div class="spacer"></div>
+				<hr noshade="noshade" />
+				
+				<div id="topnav">
+  <table cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr  valign="middle">
+      <td align="left" ><a onMouseOver="m('cse',1)" onMouseOut="m('cse',0)" href="http://www.washington.edu" class="barlink">&nbsp;&nbsp;UW&nbsp;Home&nbsp;&nbsp;</font></a></td>
+      <td width="100%" align="left"  ><a onMouseOver="m('uw',1)" onMouseOut="m('uw',0)" href="http://www.cs.washington.edu/" class="barlink">&nbsp;&nbsp;CSE&nbsp;Home&nbsp;</font></a></td>
+
+      <td nowrap="nowrap" > <a onMouseOver="m('announce',1)" onMouseOut="m('announce',0)" 
+      href="http://mailman1.u.washington.edu/pipermail/cse142b_au16/2016/" 
+      class="barlink">&nbsp;Announcements
+        &nbsp;</font> </font></a></td> <td nowrap="nowrap" > <a onMouseOver="m('about',1)" 
+      onMouseOut="m('about',0)" target="_blank" href="https://catalyst.uw.edu/gopost/board/reges/43213/
+ "class="barlink"> &nbsp;Message
+        Board&nbsp;</font> </font></a></td>
+      <td ><a onMouseOver="m('contact',1)" onMouseOut="m('contact',0)" href="staff.shtml" class="barlink">&nbsp;&nbsp;Contact&nbsp;Info&nbsp;</font></a></td>
+    </tr>
+
+  </tbody></table><hr noshade="noshade" />
+</div>
+
+			</div>
+			<div class="spacer"></div>
+
+			<div class="sidebar">
+				<h2 class="first">CSE 142</h2>
+				<ul>
+					<li><a href="index.shtml"><img src="images/home_icon.png" class="sidebaricon" alt="main" /> Main Page</a></li>
+
+					<li><a href="http://courses.cs.washington.edu/courses/cse142/16au/handouts/01.html"><img src="images/syllabus_icon.png" class="sidebaricon" alt="syllabus" /> Syllabus</a></li>
+				</ul>
+
+				<h2>Coursework</h2>
+				<ul>
+
+				
+					<li><a href="calendar.shtml"><img src="images/lectures_icon.png" class="sidebaricon" alt="lectures" /> Calendar</a></li>
+
+						<li><a href="handouts.shtml"><img src="images/diff_icon.png" alt="handouts" width="16" height="16" class="sidebaricon" /> Handouts</a></li>
+					<li><a href="homework.shtml"><img src="images/homework_icon.png" class="sidebaricon" alt="homework" /> Homework</a></li>
+					<li><a href="sections.shtml"><img src="images/lab_info_icon.png" class="sidebaricon" alt="sections" /> Sections</a></li>
+
+					<li><a href="labs.shtml"><img src="images/labs_icon.png" class="sidebaricon" alt="labs" /> Labs</a></li>
+
+
+					<li><a href="textbook.shtml"><img src="images/textbook_icon.png" class="sidebaricon" alt="textbook" /> Textbook</a></li>
+					<li><a href="http://www.pearsoncustom.com/wa/washington_java/"></a></li>
+					<!--<li><a href="labs.shtml">Labs</a></li>-->
+					<li><a href="working_at_home.shtml"><img src="images/working_at_home_icon.png" class="sidebaricon" alt="working at home" /> Working at Home</a></li>
+										<li><a href="exams.shtml"><img src="images/exams_icon.png" class="sidebaricon" alt="exams" /> Exams</a></li>
+				<!--		<li><a href="jgrasp.shtml"><img src="images/jgrasp_icon.gif" class="sidebaricon" alt="jGRASP Tutorial" /> jGRASP Tutorial</a></li>
+				<li><a href="python.shtml"><img src="images/python_icon.gif" class="sidebaricon" alt="python" /> Python</a></li> 
+					<li><a href="exams.shtml"><img src="images/exams_icon.png" class="sidebaricon" alt="exams" /> Exams</a></li>-->
+				</ul>
+
+			
+			
+				<h2>Getting Help</h2>
+				<ul>
+					<li><a href="staff.shtml"><img src="images/staff_icon.png" class="sidebaricon" alt="staff" /> Course Staff</a></li>
+					<li><a href="https://webster.cs.washington.edu/ipl/iplschedule.php?course=142&quarter=16au"><img src="images/lab_schedule_icon.png" class="sidebaricon" alt="lab schedule" /> TA IPL Schedule</a></li>
+					<!--<li><a href="labinfo.html"><img src="images/lab_info_icon.png" class="sidebaricon" alt="lab info" /> Lab Info
+					  
+					</a></li> 
+
+					<li><a href="https://catalyst.uw.edu/gopost/board/cse142/40909/" target="_blank"><img src="images/message_board_icon.png" class="sidebaricon" alt="message board" /> Message Board</a></li>
+					
+					<li><a href="practicum.shtml"><img src="images/labs_icon.png" class="sidebaricon" alt="icon" /> Practicum</a></li>
+					-->
+					<li><a href="http://practiceit.cs.washington.edu/"><img src="images/practiceit.png" class="sidebaricon" alt="icon" /> Practice-It!</a></li>
+					
+				</ul>
+			
+
+				<h2>Check Scores</h2>
+				<ul>
+					
+				<li><a href="https://canvas.uw.edu/courses/1064118"><img src="images/myuw_icon.png" class="sidebaricon" alt="myuw" /> Canvas </a></li>
+				<!--	<li><a href="myuw.shtml"><img src="images/myuw_icon.png" class="sidebaricon" alt="myuw" /> MyUW</a></li> -->
+
+				<li><a href="gradeit.shtml"><img src="images/gradeit_icon.png" class="sidebaricon" alt="grade-it" /> Grade Sheets</a></li>
+				<li><a href="regrade.shtml"><img src="images/survey_icon.gif" alt="regrade" width="32" height="32" class="sidebaricon" /> Regrade Policy</a></li> 				
+				
+			</ul>
+				
+
+
+				<h2>Other</h2>
+				<ul>
+					<!-- <li><a href="http://csecoolstuff.wordpress.com/"><img src="images/cool_links_icon.png" class="sidebaricon" alt="cs cool stuff" /> CS Cool Stuff</a></li>-->
+					<li><a href="explore.shtml"><img src="images/python_icon.gif" alt="explore"  class="sidebaricon" /> Exploration Sessions</a></li>
+					<li><a href="links.shtml"><img src="images/links_icon.png" class="sidebaricon" alt="links" /> Links</a></li>
+<!-- 					<li><a href="honors.shtml"><img src="images/atom.png" alt="honors" width="24" height="24"  class="sidebaricon" /> Honors Sections</a></li>
+
+					<li><a href="faq.shtml"><img src="images/faq_icon.png" class="sidebaricon" alt="FAQ" /> FAQ</a></li> -->
+				</ul>
+			</div>
+
+
+			<div class="centerpane">
+
+
+<p>
+  This personality test is a variation of the 
+  <a href="http://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator" target="new">Myers-Briggs Type Indicator</a>.
+  The particular version we are using comes from a great book on the subject
+  called <a href="http://www.amazon.com/dp/1885705026" target="new">Please Understand Me</a> by
+  David Keirsey.
+</p>
+
+<p>
+  Another excellent book on this subject is
+  <a href="http://www.amazon.com/dp/0446388238" target="new">Life Types</a> by Sandra Krebs
+  Hirsh and Jean M. Kummerow.  In their book, they include an alternate
+  acronym for each type that is meant to capture the essence of the type.
+</p>
+
+<p>
+  There are many resources on the web.  For
+  example, the
+  <a href="http://www.16personalities.com/personality-types">16Personalities
+  page</a> seems to be popular.  You can also google your personality type and
+  you'll find plenty of hits.  People seem to particularly enjoy reading a set
+  of pages that discuss relationship issues for each personality type.
+</p>
+
+<p>
+  The table below shows the alternate acronym for each type and has links to
+  that set of pages that describe relationship issues and other aspects of the
+  personality type.
+</p>
+
+<table  cellpadding="10" cellspacing="0" border="5">
+  <tr>
+    <th>Type</th>
+    <th>Alternate acronym</th>
+    <th>Relationship issues</th>
+    <th>Profile</th>
+    <th>Careers</th>
+  </tr>
+  <tr>
+    <td>ISTJ</td>
+    <td>I Save Things Judiciously</td>
+    <td><a href="http://www.personalitypage.com/html/ISTJ_rel.html" target="new">ISTJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ISTJ.html" target="new">ISTJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/ISTJ_car.html" target="new">ISTJ careers</td>
+  </tr>
+  <tr>
+    <td>ISTP</td>
+    <td>I See The Problem</td>
+    <td><a href="http://www.personalitypage.com/html/ISTP_rel.html" target="new">ISTP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ISTP.html" target="new">ISTP profile</td>
+    <td><a href="http://www.personalitypage.com/html/ISTP_car.html" target="new">ISTP careers</td>
+  </tr>
+  <tr>
+    <td>ESTP</td>
+    <td>Everyone Seems Too Proper</td>
+    <td><a href="http://www.personalitypage.com/html/ESTP_rel.html" target="new">ESTP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ESTP.html" target="new">ESTP profile</td>
+    <td><a href="http://www.personalitypage.com/html/ESTP_car.html" target="new">ESTP careers</td>
+  </tr>
+  <tr>
+    <td>ESTJ</td>
+    <td>Execution Saves The Job</td>
+    <td><a href="http://www.personalitypage.com/html/ESTJ_rel.html" target="new">ESTJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ESTJ.html" target="new">ESTJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/ESTJ_car.html" target="new">ESTJ careers</td>
+  </tr>
+  <tr>
+    <td>ISFJ</td>
+    <td>I Serve Family Joyfully</td>
+    <td><a href="http://www.personalitypage.com/html/ISFJ_rel.html" target="new">ISFJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ISFJ.html" target="new">ISFJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/ISFJ_car.html" target="new">ISFJ careers</td>
+  </tr>
+  <tr>
+    <td>ISFP</td>
+    <td>I Seek Fun and Pleasure</td>
+    <td><a href="http://www.personalitypage.com/html/ISFP_rel.html" target="new">ISFP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ISFP.html" target="new">ISFP profile</td>
+    <td><a href="http://www.personalitypage.com/html/ISFP_car.html" target="new">ISFP careers</td>
+  </tr>
+  <tr>
+    <td>ESFP</td>
+    <td>Extra Specially Friendly Person</td>
+    <td><a href="http://www.personalitypage.com/html/ESFP_rel.html" target="new">ESFP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ESFP.html" target="new">ESFP profile</td>
+    <td><a href="http://www.personalitypage.com/html/ESFP_car.html" target="new">ESFP careers</td>
+  </tr>
+  <tr>
+    <td>ESFJ</td>
+    <td>Extra Special Friendly Joiner</td>
+    <td><a href="http://www.personalitypage.com/html/ESFJ_rel.html" target="new">ESFJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ESFJ.html" target="new">ESFJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/ESFJ_car.html" target="new">ESFJ careers</td>
+  </tr>
+  <tr>
+    <td>INFJ</td>
+    <td>Inner Nuances Foster Journeys</td>
+    <td><a href="http://www.personalitypage.com/html/INFJ_rel.html" target="new">INFJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/INFJ.html" target="new">INFJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/INFJ_car.html" target="new">INFJ careers</td>
+  </tr>
+  <tr>
+    <td>INFP</td>
+    <td>I Never Find Perfection</td>
+    <td><a href="http://www.personalitypage.com/html/INFP_rel.html" target="new">INFP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/INFP.html" target="new">INFP profile</td>
+    <td><a href="http://www.personalitypage.com/html/INFP_car.html" target="new">INFP careers</td>
+  </tr>
+  <tr>
+    <td>ENFP</td>
+    <td>Every day, New Fantastic Possibilities</td>
+    <td><a href="http://www.personalitypage.com/html/ENFP_rel.html" target="new">ENFP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ENFP.html" target="new">ENFP profile</td>
+    <td><a href="http://www.personalitypage.com/html/ENFP_car.html" target="new">ENFP careers</td>
+  </tr>
+  <tr>
+    <td>ENFJ</td>
+    <td>Everyone Needs Fulfillment and Joy</td>
+    <td><a href="http://www.personalitypage.com/html/ENFJ_rel.html" target="new">ENFJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ENFJ.html" target="new">ENFJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/ENFJ_car.html" target="new">ENFJ careers</td>
+  </tr>
+  <tr>
+    <td>INTJ</td>
+    <td>It's Not Thoroughly Justified</td>
+    <td><a href="http://www.personalitypage.com/html/INTJ_rel.html" target="new">INTJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/INTJ.html" target="new">INTJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/INTJ_car.html" target="new">INTJ careers</td>
+  </tr>
+  <tr>
+    <td>INTP</td>
+    <td>It's Not Theoretically Possible</td>
+    <td><a href="http://www.personalitypage.com/html/INTP_rel.html" target="new">INTP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/INTP.html" target="new">INTP profile</td>
+    <td><a href="http://www.personalitypage.com/html/INTP_car.html" target="new">INTP careers</td>
+  </tr>
+  <tr>
+    <td>ENTP</td>
+    <td>Each New Thought Propels</td>
+    <td><a href="http://www.personalitypage.com/html/ENTP_rel.html" target="new">ENTP relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ENTP.html" target="new">ENTP profile</td>
+    <td><a href="http://www.personalitypage.com/html/ENTP_car.html" target="new">ENTP careers</td>
+  </tr>
+  <tr>
+    <td>ENTJ</td>
+    <td>Executives Need Tough Jobs</td>
+    <td><a href="http://www.personalitypage.com/html/ENTJ_rel.html" target="new">ENTJ relationships</td>
+    <td><a href="http://www.personalitypage.com/html/ENTJ.html" target="new">ENTJ profile</td>
+    <td><a href="http://www.personalitypage.com/html/ENTJ_car.html" target="new">ENTJ careers</td>
+  </tr>
+</table>
+
+			</div>
+		</div>
+
+<!--
+		<div class="w3c">
+			<a href="http://validator.w3.org/check/referer"><img src="images/w3c_xhtml11.png" alt="Valid XHTML 1.1" /></a>
+
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="images/w3c_css.png" alt="Valid CSS!" /></a>
+		</div>
+-->
+
+		<!-- Google Analytics -->
+		<script type="text/javascript" src="http://www.google-analytics.com/urchin.js"></script>
+		<script type="text/javascript">
+			_uacct = "UA-2729135-1";
+			urchinTracker();
+		</script>
+	</body>
+</html>
+
