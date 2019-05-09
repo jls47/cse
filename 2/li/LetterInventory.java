@@ -2,14 +2,16 @@
 import java.util.*;
 import java.io.*;
 
-public class HW1 {
+public class LetterInventory {
 
 	public static void main(String[] args){
-
+		LetterInventory("George");
 	}
 	
-	public static void LetterInventory(String data){
-
+	public String LetterInventory(String data){
+		this.string = data.toLowerCase();
+		this.letters = string.split("");
+		System.out.println(letters);
 	}
 
 	public int get(char letter){
